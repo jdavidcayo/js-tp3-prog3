@@ -7,6 +7,59 @@
     <title>Vite App</title>
   </head>
   <body>
+    <!-- Introduccion al DOM Ejercicio 1 -->
+    <section id="section1">
+      <p>Este es el primer parrafo.</p>
+      <p>Este es el segundo parrafo.</p>
+      <p>Este es el tercer parrafo.</p>
+    
+      <button id="btnCambiarColor">Cambiar color</button>
+    </section>
+
+    <!-- Introduccion al DOM Formulario con alerta -->
+    <section id="section2">
+      <h3>Ejercicio 2: Formulario con alerta</h3>
+      <hr>
+      <form id="form">
+        <span>Ingresa un texto:</span>
+        <input type="text" name="inputTexto" id="inputTexto">
+        <button id="btnMostrarAlerta">Mostrar Alerta</button>
+      </form>
+    </section>
+
+    <!-- Eventos en DOM -->
+    <section>
+      <h3>Ejercicio 1: Lista de elementos</h3>
+      <hr>
+      <ul>
+        <li class="elemento">Elemento 1</li>
+        <li class="elemento">Elemento 2</li>
+        <li class="elemento">Elemento 3</li>
+        <li class="elemento">Elemento 4</li>
+        <li class="elemento">Elemento 5</li>
+      </ul>
+
+    </section>
+
+    <!-- Ejercicio 2: Campo de texto y botones -->
+    <section>
+      <h3>Ejercicio 2: Campo de texto y botones</h3>
+      <hr>
+      <input type="text" placeholder="Ingrese algo" id="inputEjercicio2">
+      <button id="btnDeshabilitar">Deshabilitar campo</button>
+      <button id="btnHabilitar">Habilitar campo</button>
+    </section>
+
+    <section>
+      <h3>Local Storage Ejercicio 1</h3>
+      <hr>
+      <label for="emailInput">Correo electronico</label>
+      <input type="email" placeholder="ejemplo@gmail.com" id="emailInput" name="emailInput">
+      <button id="btnGuardarEmail">Guardar</button>
+      <ul id="emailLista">
+
+      </ul>
+    </section>
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
   </body>
